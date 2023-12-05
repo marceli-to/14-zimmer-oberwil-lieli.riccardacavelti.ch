@@ -1,0 +1,40 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: layout/section
+ * -----------------------------------------------------------------------------
+ */
+
+section {
+  position: relative;
+}
+
+section.content-intro {
+  margin-bottom: $space-8x;
+  padding: 0 $space-4x;
+
+  @include bp-xl() {
+    padding: 0;
+  }
+
+  > div {
+    @extend %intro-block;
+  }
+
+  .claim {
+    @include font-medium();
+    display: block;
+    margin-top: $space-4x;
+    padding-bottom: $space-4x;
+    text-transform: uppercase;
+    @include bp-xs() {
+      display: none;
+    }
+  }
+}
+
+section.content {
+  padding: 0 $space-4x;
+  > div {
+    @extend %inner-block;
+  }
+}

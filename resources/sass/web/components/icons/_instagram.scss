@@ -1,0 +1,16 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: components/icons/instagram
+ * -----------------------------------------------------------------------------
+ */
+
+.icon-instagram {
+  display: block;
+  height: 25px;
+  margin: $space-5x 0;
+  width: 25px;
+
+  svg {
+    @extend %is-responsive;
+  }
+}

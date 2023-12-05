@@ -1,0 +1,24 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: components/typo/webfonts
+ * -----------------------------------------------------------------------------
+ *
+ * Typography - Webfonts
+ *
+ */
+
+ @font-face {
+  font-family: 'voltemedium';
+  src: url('fonts/volte_medium-webfont.woff2') format('woff2'), url('fonts/volte_medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'volteregular';
+  src: url('fonts/volte-webfont.woff2') format('woff2'), url('fonts/volte-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}

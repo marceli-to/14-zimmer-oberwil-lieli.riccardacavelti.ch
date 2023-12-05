@@ -1,0 +1,28 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: layout/menu/language
+ * -----------------------------------------------------------------------------
+ */
+
+nav.site-language {
+  display: block;
+
+  ul {
+    align-items: center;
+    display: flex;
+  }
+
+  li {
+    color: $color-primary;
+
+    &.separator {
+      padding: 0 $space-1x;
+    }
+  }
+
+  a {
+    color: $color-primary;
+    display: block;
+    line-height: 1 !important;
+  }
+}

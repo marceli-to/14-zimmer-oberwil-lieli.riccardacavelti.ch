@@ -1,0 +1,121 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: layout/menu/browse
+ * -----------------------------------------------------------------------------
+ */
+
+nav.browse {
+  border-bottom: 1px solid $color-primary;
+  border-top: 1px solid $color-primary;
+  padding: $space-3x 0;
+
+  @include bp-sm() {
+    padding: $space-5x 0;
+  }
+
+  ul {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+
+    li {
+      display: flex;
+
+      @include bp-sm() {
+        align-content: center;
+      }
+      
+      &:nth-child(2) {
+        justify-content: center;
+      }
+
+      &:nth-child(3) {
+        justify-content: flex-end;
+      }
+    }
+  }
+
+  a {
+    @include background-default();
+    color: $color-light;
+    display: flex;
+    flex-direction: column;
+    line-height: 1 !important;
+
+    svg {
+      display: block;
+    }
+
+    span {
+      display: block;
+      margin-bottom: $space-3x;
+
+      @include bp-sm() {
+        margin-bottom: 0;
+      }
+    }
+
+    &.btn-home {
+      padding: 0 $space-2x;
+      svg {
+        height: 12px;
+        width: 12px;
+      }
+    }
+
+    &.btn-prev,
+    &.btn-next {
+      svg {
+        height: 14px;
+        width: auto;
+      }
+    }
+
+    &.btn-prev {
+      align-items: flex-start;
+    }
+
+    &.btn-next {
+      align-items: flex-end;
+    }
+
+    @include bp-sm() {
+      flex-direction: row;
+      align-items: center;
+
+      &.btn-home {
+        padding: 0;
+        span {
+          display: none;
+        }
+      }
+
+
+      &.btn-prev {
+        svg {
+          order: 1;
+          margin-right: $space-3x;
+        }
+
+        span {
+          order: 2;
+        }
+      }
+
+      &.btn-next {
+        svg {
+          order: 2;
+          margin-left: $space-3x;
+        }
+
+        span {
+          order: 1;
+        }
+      }
+    }
+
+  }
+
+  @include bp-md() {
+    border-top: 0;
+  }
+}

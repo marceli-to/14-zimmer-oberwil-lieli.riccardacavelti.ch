@@ -1,0 +1,31 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: components/buttons/scroll
+ * -----------------------------------------------------------------------------
+ */
+
+.btn-scroll {
+  display: none;
+
+  @include bp-md() {
+    display: block;
+    height: 18px;
+    left: calc(50% - 16px);
+    opacity: 1;
+    pointer-events: all;
+    position: absolute;
+    transition: opacity .12s ease-in;
+    width: 32px;
+    z-index: 101;
+
+    &.is-hidden {
+      pointer-events: none;
+      opacity: 0;
+      z-index: 0;
+    }
+  }
+
+  svg {
+    @extend %is-responsive;
+  }
+}

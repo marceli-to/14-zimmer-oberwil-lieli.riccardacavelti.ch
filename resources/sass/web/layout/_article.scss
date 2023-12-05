@@ -1,0 +1,243 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: layout/article
+ * -----------------------------------------------------------------------------
+ */
+
+article {
+  margin-bottom: $space-8x;
+
+  > div {
+    border-top: 1px solid $color-primary;
+    padding: $space-4x 0 0 0;
+  }
+
+  &.is-wide {
+    border-top: 1px solid $color-primary;
+    padding: $space-4x 0 0 0;
+
+    > div {
+      border-top: none;
+      padding: 0;
+    }
+  }
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+
+  &.is-plans {
+    display: grid;
+    > div.order-1 {
+      order: 1;
+    }
+
+    > div.order-2 {
+      order: 2;
+    }
+  }
+
+  @include bp-sm() {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: $space-5x;
+
+    &.is-reverse {
+      
+      figure {
+        order: 0;
+      }
+
+      > div {
+        order: 1;
+      }
+
+      > div.sm\:order-1 {
+        order: 1;
+      }
+
+      > div.sm\:order-2 {
+        order: 2;
+      }
+    }
+  }
+
+  figure {
+    margin-top: $space-7x;
+
+    @include bp-sm() {
+      margin-top: 0;
+    }
+
+    &.has-button {
+      position: relative;
+      
+      &:after {
+        background-color: transparent;
+        content: '';
+        display: block;
+        left: 50%;
+        position: absolute;
+        top: 50%;
+        z-index: 101;
+        transform: translate(-50%,-50%);
+        width: 0;
+        height: 0;
+        border-top: 15px solid transparent;
+        border-left: 30px solid $color-white;
+        border-bottom: 15px solid transparent;
+
+        @include bp-sm() {
+          border-top: 25px solid transparent;
+          border-left: 50px solid $color-white;
+          border-bottom: 25px solid transparent;
+        }
+      }
+    }
+
+    img {
+      @extend %is-responsive;
+    }
+  }
+
+  > div + div {
+    margin-top: $space-4x;
+    @include bp-sm() {
+      margin-top: 0;
+    }
+  }
+
+  a {
+    color: $color-primary;
+    text-decoration: none;
+  }
+
+  p, ul {
+    margin: 0 0 $space-4x 0;
+
+    &:last-child {
+      margin-bottom: 0 !important;
+    }
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 1em;
+
+    li {
+      display: list-item;
+      margin-bottom: $space-3x;
+    }
+
+    > li:before {
+      display: inline-block;
+      content: "–";
+      width: 1em;
+      margin-left: -1em;
+    }
+  }
+
+  table {
+    width: 100%;
+
+    tr {
+      border-bottom: 1px solid $color-primary;
+      
+      &:last-of-type {
+        border-bottom: none;
+      }
+
+      &:first-child {
+        td {
+          padding-top: 0 !important;
+        }
+      }
+    }
+
+    td {
+      padding-bottom: $space-4x;
+      padding-top: $space-4x;
+      width: 50%;
+
+      &:last-of-type {
+        @include font-medium();
+        text-align: right;
+      }
+    }
+  }
+
+  .imprint {
+    padding-bottom: $space-8x;
+  }
+
+  &.is-intro {
+
+    > div.intro__slideshow {
+      border-top: none;
+      padding-top: 0 !important;
+      position: relative;
+      overflow: hidden;
+      order: 0;
+    }
+
+    > div.intro__text {
+      border-top: 1px solid $color-primary;
+      margin-bottom: $space-7x;
+      order: 1;
+      padding: $space-4x 0 0 0;
+    }
+
+    @include bp-sm() {
+      display: grid;
+      grid-template-columns: 1fr;
+
+      > div.intro__text {
+        border-top: 0;
+        display: flex;
+        justify-content: flex-end;
+        order: 1;
+        margin-bottom: 0;
+        margin-top: $space-4x;
+
+        > div {
+          border-top: 1px solid $color-primary;
+          max-width: 50%;
+          padding-top: $space-4x;
+          max-width: calc(50% - 15px);
+        }
+      }
+
+      > div.intro__slideshow {
+        order: 0;
+      }
+    }
+
+    @include bp-xl() {
+      display: flex;
+      grid-template-columns: none;
+      grid-column-gap: 0;
+      
+      > div.intro__slideshow {
+        order: 0;
+        flex: 0 0 calc(#{$content-max-width} + ((100% - #{$content-max-width})/2));
+        max-width: calc(#{$content-max-width} + ((100% - #{$content-max-width})/2));
+      }
+
+      > div.intro__text {
+        border-top: 1px solid $color-primary;
+        display: block;
+        margin-left: $space-5x;
+        margin-top: 0;
+        padding-left: 0;
+        order: 1;
+
+        > div {
+          border-top: 0;
+          max-width: none;
+          padding-top: 0;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: components/video
+ * -----------------------------------------------------------------------------
+ *
+ */
+
+.video-container {
+  height: auto;
+  position: relative;
+  width: 100%;
+
+  video {
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+
+  a {
+    cursor: default;
+    pointer-events: none;
+
+    @include bp-md() {
+      cursor: pointer;
+      pointer-events: all;
+    }
+  }
+}
+
+video {
+  &:focus {
+    outline: none !important;
+  }
+}

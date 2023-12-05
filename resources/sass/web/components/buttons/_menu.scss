@@ -1,0 +1,37 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: components/buttons/menu
+ * -----------------------------------------------------------------------------
+ */
+
+.btn-menu {
+  @include background-default();
+  background-image: url($url-images + 'burger.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: block;
+  height: 17px;
+  position: absolute;
+  right: $space-4x;
+  top: $space-6x;
+  width: 27px;
+  z-index: 201;
+
+  &.is-active {
+    background-image: url($url-images + 'cross-lg.svg');
+    background-size: 100%;
+    margin-right: 4px;
+    height: 20px;
+    width: 20px;
+  }
+
+  @include bp-md() {
+    left: $space-4x;
+    right: auto;
+    top: $space-8x;
+  }
+
+  @include bp-xl() {
+    left: 0;
+  }
+}

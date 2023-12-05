@@ -1,0 +1,19 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: layout/main
+ * -----------------------------------------------------------------------------
+ */
+
+main.site {
+  padding-top: $header-height;
+  position: relative;
+  z-index: 201;
+  
+  @include bp-md() {
+    padding-top: $header-height-md;
+  }
+  
+  > div {
+    @extend %outer-block;
+  }
+}

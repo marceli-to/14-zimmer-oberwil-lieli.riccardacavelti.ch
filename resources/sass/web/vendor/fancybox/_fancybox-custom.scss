@@ -1,0 +1,72 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: vendor/fancybox/fancybox-custom
+ * -----------------------------------------------------------------------------
+ *
+ */
+
+.fancybox-is-open .fancybox-bg {
+  background-color: $color-black;
+  opacity: .75 !important;
+}
+
+.fancybox-toolbar {
+  height: 40px;
+  width: 100%;
+  z-index: 999999;
+}
+
+.fancybox-content {
+  background-color: transparent;
+  padding: 0 !important;
+
+  video {
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+}
+
+.btn-fancybox-close {
+
+}
+
+.btn-fancybox-prev,
+.btn-fancybox-next {
+  @include background-default();
+  background-size: 16px 30px;
+  display: block;
+  height: 30px;
+  position: fixed;
+  top: calc(50% - 15px);
+  width: 16px;
+  z-index: 99998;
+}
+
+.btn-fancybox-next {
+  background-image: url($url-images + 'chevron-right-lg-dark.svg');
+  background-position: center right;
+  right: $space-4x;
+
+  @include bp-sm() {
+    background-image: url($url-images + 'chevron-right-lg.svg');
+  }
+
+  @include bp-xl() {
+    right: $space-8x;
+  }
+}
+
+.btn-fancybox-prev {
+  background-image: url($url-images + 'chevron-left-lg-dark.svg');
+  background-position: center left;
+  left: $space-4x;
+
+  @include bp-sm() {
+    background-image: url($url-images + 'chevron-left-lg.svg');
+  }
+
+  @include bp-xl() {
+    left: $space-8x;
+  }
+}

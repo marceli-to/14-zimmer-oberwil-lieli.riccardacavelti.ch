@@ -1,0 +1,66 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: layout/footer
+ * -----------------------------------------------------------------------------
+ */
+
+footer.site-footer {
+  background-color: $color-lucent;
+  bottom: 0;
+  height: $footer-height;
+  opacity: 1;
+  padding-top: $space-6x;
+  position: fixed;
+  transition: opacity .12s ease-in;
+  width: 100%;
+  z-index: 201;
+
+  @include bp-sm() {
+    z-index: 101;
+  }
+  
+  @include bp-landscape() {
+    height: 60px;
+    padding-top: 15px;
+  }
+
+  &.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+
+    @include bp-lg() {
+      opacity: 1;
+      pointer-events: all;
+    }
+  }
+
+  &.is-inner {
+    display: none;
+    @include bp-md() {
+      display: block;
+    }
+  }
+
+  @include bp-md() {
+    background-color: transparent;
+    height: $footer-height-md;
+    padding: $space-8x $space-4x 0 $space-4x;
+  }
+
+  @include bp-xl() {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  > div {
+    @extend %outer-block;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    @include bp-md() {
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: layout/base
+ * -----------------------------------------------------------------------------
+ */
+
+@include scrollbar(6px, #f9f9f9);
+
+html {
+	overflow-y: scroll;
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: $color-white;
+	color: $color-primary;
+	@include font-smoothing();
+	@include font-regular();
+	@include font-size($fs-md);
+	// min-height: 100vh;
+	// min-height: -webkit-fill-available;
+}

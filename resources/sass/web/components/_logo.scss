@@ -1,0 +1,29 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: components/logo
+ * -----------------------------------------------------------------------------
+ */
+
+.logo {
+  display: block;
+  height: 35px;
+  margin-top: $space-4x;
+  width: 60px;
+
+  svg {
+    @extend %is-responsive;
+  }
+
+  @include bp-md() {
+    margin-top: $space-7x;
+  }
+}
+
+.logo-byline {
+  display: block;
+  svg {
+    display: block;
+    height: auto;
+    width: 134px;
+  }
+}

@@ -1,0 +1,63 @@
+/**
+ * -----------------------------------------------------------------------------
+ * File: layout/header
+ * -----------------------------------------------------------------------------
+ */
+
+header.site-header {
+  background-color: $color-lucent;
+  height: $header-height;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 301;
+
+  @include bp-md() {
+    height: $header-height-md;
+  }
+
+  > div {
+    @extend %outer-block;
+    display: grid;
+    grid-template-columns: 2fr 1.5fr 2fr;
+    height: inherit;
+  }
+
+  .site-header__item {
+    display: flex;
+    height: inherit;
+
+    &.is-vcenter {
+      align-items: center;
+    }
+
+    &.is-hcenter {
+      justify-content: flex-start;
+      justify-content: center;
+    }
+
+    &:first-of-type {
+      padding-left: $space-4x;
+      @include bp-xl() {
+        padding: 0;
+      }
+
+      span {
+        display: none;
+        @include font-medium();
+        @include bp-xs() {
+          display: block;
+        }
+      }
+    }
+
+    &:last-of-type {
+      justify-content: flex-end;
+      padding-right: $space-4x;
+      @include bp-xl() {
+        padding: 0;
+      }
+    }
+  }
+}
