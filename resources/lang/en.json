@@ -37,5 +37,9 @@
   "OG + EG + UG": "upper-/ground floor/basement",
   "nach Vereinbarung": "By agreement",
   "5.9 Mio.": "5.9 million",
-  "Objekt": "Property"
+  "Objekt": "Property",
+  "Raumprogramm": "Room program",
+  "Obergeschoss": "Upper floor",
+  "Erdgeschoss": "Ground floor",
+  "Untergeschoss": "Basement"
 }
