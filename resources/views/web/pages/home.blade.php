@@ -1,25 +1,29 @@
 @extends('web.layout.app')
-@section('seo_title', strip_tags(str_replace('<br>',' – ', __('content.heading-intro'))))
-@section('seo_description', strip_tags(__('content.text-intro')))
+@section('seo_title', strip_tags(str_replace('<br>',' – ', __('14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau 8966 Oberwil-Lieli (Steuerfuss 48%)'))))
+@section('seo_description', strip_tags(__('<p>Exklusives und hochwertig ausgebautes Duplex-Terrassenhaus (Stockwerkeigentum), 600 m<sup>2</sup> Wohnfläche, 9 Schlafzimmern, 7 Badezimmern, Fitnessraum, Mehrzweckraum, Tanz/Kinoraum, 179 m<sup>2</sup> Terrasse, 184 m<sup>2</sup> Garten mit Swim Spa, Whirlpool, 6 Garagenstellplätze, 9 Aussenstellplätze.<br>Diese grosszügige Liegenschaft, bestehend aus zwei miteinander verbundenen Wohnungen, Wohnfläche ca. 400 m<sup>2</sup> und ca. 210 m<sup>2</sup>, eignet sich hervorragend für eine kinderreiche Familie, Generationenhaus sowie zur Unterbringung der eigenen Firma.</p>')))
 @section('content')
 <section class="content-intro">
   <div>
-    <span class="claim">Objekt RC2110.01</span>
+    <span class="claim">{{__('Objekt') }} RC2111.01</span>
     <article class="is-intro">
       <div class="intro__text">
         <div>
-          <h1>{!! __('content.heading-intro') !!}</h1>
-          {!! __('content.text-intro') !!}
+          <h1>{!! __('14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau 8966 Oberwil-Lieli (Steuerfuss 48%)') !!}</h1>
+          {!! __('<p>Exklusives und hochwertig ausgebautes Duplex-Terrassenhaus (Stockwerkeigentum), 600 m<sup>2</sup> Wohnfläche, 9 Schlafzimmern, 7 Badezimmern, Fitnessraum, Mehrzweckraum, Tanz/Kinoraum, 179 m<sup>2</sup> Terrasse, 184 m<sup>2</sup> Garten mit Swim Spa, Whirlpool, 6 Garagenstellplätze, 9 Aussenstellplätze.<br>Diese grosszügige Liegenschaft, bestehend aus zwei miteinander verbundenen Wohnungen, Wohnfläche ca. 400 m<sup>2</sup> und ca. 210 m<sup>2</sup>, eignet sich hervorragend für eine kinderreiche Familie, Generationenhaus sowie zur Unterbringung der eigenen Firma.</p>') !!}
         </div>
       </div>
       <x-slideshow>
-        <x-image isSlide="true" image="wettswil-am-albis-riccarda-cavelti-intro-01" width="1600" height="1067" alt="{{ __('content.heading-intro') }}" />
-        <x-image isSlide="true" image="wettswil-am-albis-riccarda-cavelti-intro-02" width="1600" height="1067" alt="{{ __('content.heading-intro') }}" />
-        <x-image isSlide="true" image="wettswil-am-albis-riccarda-cavelti-intro-03" width="1600" height="1067" alt="{{ __('content.heading-intro') }}" />
-        <x-image isSlide="true" image="wettswil-am-albis-riccarda-cavelti-intro-04" width="1600" height="1067" alt="{{ __('content.heading-intro') }}" />
-        <x-image isSlide="true" image="wettswil-am-albis-riccarda-cavelti-intro-05" width="1600" height="1067" alt="{{ __('content.heading-intro') }}" />
-        <x-image isSlide="true" image="wettswil-am-albis-riccarda-cavelti-intro-06" width="1600" height="1067" alt="{{ __('content.heading-intro') }}" />
-        <x-image isSlide="true" image="wettswil-am-albis-riccarda-cavelti-intro-07" width="1600" height="1067" alt="{{ __('content.heading-intro') }}" />
+        <x-image isSlide="true" image="rc_oberwil-lieli-8.5-zimmer-01" width="1600" height="1067" alt="{{ __('14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
+        <x-image isSlide="true" image="rc_oberwil-lieli-8.5-zimmer-02" width="1600" height="1067" alt="{{ __('14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
+        <x-image isSlide="true" image="rc_oberwil-lieli-8.5-zimmer-03" width="1600" height="1067" alt="{{ __('14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
+        <x-image isSlide="true" image="rc_oberwil-lieli-8.5-zimmer-04" width="1600" height="1067" alt="{{ __('14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
+        <x-image isSlide="true" image="rc_oberwil-lieli-8.5-zimmer-05" width="1600" height="1067" alt="{{ __('14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
+        <x-image isSlide="true" image="rc_oberwil-lieli-5.5-zimmer-01" width="1600" height="1067" alt="{{ __('14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
+        <x-image isSlide="true" image="rc_oberwil-lieli-5.5-zimmer-03" width="1600" height="1067" alt="{{ __('14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
+        <x-image isSlide="true" image="rc_oberwil-lieli-5.5-zimmer-04" width="1600" height="1067" alt="{{ __('14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
+        <x-image isSlide="true" image="rc_oberwil-lieli-5.5-zimmer-05" width="1600" height="1067" alt="{{ __('14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
+        <x-image isSlide="true" image="rc_oberwil-lieli-5.5-zimmer-06" width="1600" height="1067" alt="{{ __('14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
+        <x-image isSlide="true" image="rc_oberwil-lieli-5.5-zimmer-07" width="1600" height="1067" alt="{{ __('14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
       </x-slideshow>
     </article>
   </div>
@@ -29,47 +33,189 @@
     <article>
       <div>
         <h2>{{ __('content.heading-location') }}</h2>
-        {!! __('content.text-location') !!}
+        {!! __('<p>In der steuergünstigsten Gemeinde des Kantons Aargau (Steuerfuss 48%) in herrlicher, ländlicher Umgebung, über der Nebelgrenze mit fantastischer Weitsicht und ganztägiger Besonnung. 14 km von der Stadtgrenze Zürich, 30 km von Zug und 26 km vom Flughafen entfernt liegt die idyllische Gemeinde Oberwil-Lieli.</p><p>Mit dem direkten Schnellbus, ohne Halt ist man in nur 20 Minuten am Bahnhof Zürich Enge.</p><p>Das Schulhaus Falter und der Kindergarten liegen nur 230 Meter vom Haus entfernt, welche ohne Überquerung einer Strasse zu Fuss in wenigen Minuten erreichbar sind.</p>') !!}
       </div>
-      <a href="/assets/media/wettswil-am-albis.riccardacavelti.ch-low.mp4" data-fancybox="video">
+      <a href="/assets/media/rc_oberwil-lieli.mp4" data-fancybox="video">
         <figure class="has-button">
-          <img data-src="/assets/media/wettswil-am-albis.riccardacavelti.ch-preview.jpg" width="1600" height="1067" alt="{{ __('content.heading-location') }}" class="lazyload">
+          <img data-src="/assets/media/rc_oberwil-lieli-preview.jpg" width="1600" height="1067" alt="{{ __('content.heading-location') }}" class="lazyload">
         </figure>
       </a>
     </article>
     <article class="is-reverse is-plans">
       <div class="order-1 sm:order-2">
-        <h1>{{ __('content.heading-rooms') }}</h1>
-        {!! __('content.text-rooms') !!}
+        <h1>{{ __('Raumprogramm') }}</h1>
+        <table class="is-narrow">
+          <tr>
+            <td>{{ __('Entrée') }}</td>
+            <td>19 m<sup>2</sup></td>
+          </tr>
+          <tr>
+            <td>{{ __('Wohnen/Essen') }}</td>
+            <td>90 m<sup>2</sup></td>
+          </tr>
+          <tr>
+            <td>{{ __('Küche') }}</td>
+            <td>20 m<sup>2</sup></td>
+          </tr>
+          <tr>
+            <td>{{ __('Master Bedroom/Ankleide') }}</td>
+            <td>25 m<sup>2</sup></td>
+          </tr>
+          <tr>
+            <td>{{ __('Badezimmer/Badewanne/Dusche') }}</td>
+            <td>13 m<sup>2</sup></td>
+          </tr>
+          <tr>
+            <td>{{ __('Schlafzimmer/Kinderzimmer') }}</td>
+            <td>24 m<sup>2</sup></td>
+          </tr>
+          <tr>
+            <td>{{ __('Schlafzimmer/Kinderzimmer') }}</td>
+            <td>15 m<sup>2</sup></td>
+          </tr>
+          <tr>
+            <td>{{ __('Badezimmer/Dusche') }}</td>
+            <td>6 m<sup>2</sup></td>
+          </tr>
+          <tr>
+            <td>{{ __('Terrasse') }}</td>
+            <td>179 m<sup>2</sup></td>
+          </tr>
+          <tr>
+            <td>{{ __('Doppelgarage') }}</td>
+            <td>41 m<sup>2</sup></td>
+          </tr>
+          <tr>
+            <td>{{ __('Doppelgarage') }}</td>
+            <td>33 m<sup>2</sup></td>
+          </tr>
+        </table>
       </div>
       <div class="order-2 sm:order-1">
         <figure>
-          <h1>{{ __('content.heading-1-attic') }}</h1>
-          <a href="/assets/media/wettswil-am-albis-riccarda-cavelti-rooms-d1.jpg" data-fancybox="gallery">
+          <h1>{{ __('Obergeschoss') }}</h1>
+          <a href="/assets/media/rc_oberwil-lieli-grundriss-obergeschoss.jpg" data-fancybox="gallery">
             <picture>
-              <source srcset="/assets/media/wettswil-am-albis-riccarda-cavelti-rooms-d1.webp" type="image/webp">
-              <source srcset="/assets/media/wettswil-am-albis-riccarda-cavelti-rooms-d1.jpg">
-              <img data-src="/assets/media/wettswil-am-albis-riccarda-cavelti-rooms-d1.jpg" width="1216" height="1600" alt="{{ __('content.heading-1-attic') }}" class="lazyload">
+              <img src="/assets/media/rc_oberwil-lieli-grundriss-obergeschoss.jpg" width="1216" height="1600" alt="{{ __('Obergeschoss') }}" loading="lazy">
             </picture>
           </a>
         </figure>
       </div>
     </article>
 
-    <article>
-      <div>
-        <h1>{{ __('content.heading-2-attic') }}</h1>
+    <article class="is-plans">
+      <div class="order-1 sm:order-2">
+        <h1>{{ __('Raumprogramm') }}</h1>
+        <table class="is-narrow">
+          <tr>
+            <td>{{ __('Wohnen/Essen') }}</td>
+            <td>49 m<sup>2</sup></td>
+          </tr>
+          <tr>
+            <td>{{ __('Küche') }}</td>
+            <td>20 m<sup>2</sup></td>
+          </tr>
+          <tr>
+            <td>{{ __('Master Bedroom') }}</td>
+            <td>26 m<sup>2</sup></td>
+          </tr>
+          <tr>
+            <td>{{ __('Badezimmer/Bad/Dusche/Badewanne') }}</td>
+            <td>12 m<sup>2</sup></td>
+          </tr>
+          <tr>
+            <td>{{ __('Schlafzimmer') }}</td>
+            <td>21 m<sup>2</sup></td>
+          </tr>
+          <tr>
+            <td>{{ __('Schlafzimmer') }}</td>
+            <td>20 m<sup>2</sup></td>
+          </tr>
+          <tr>
+            <td>{{ __('Badezimmer/Dusche') }}</td>
+            <td>7 m<sup>2</sup></td>
+          </tr>
+          <tr>
+            <td>{{ __('Kinderzimmer/Büro') }}</td>
+            <td>18 m<sup>2</sup></td>
+          </tr>
+          <tr>
+            <td>{{ __('Schlafzimmer') }}</td>
+            <td>30 m<sup>2</sup></td>
+          </tr>
+          <tr>
+            <td>{{ __('Badezimmer/Dusche') }}</td>
+            <td>6 m<sup>2</sup></td>
+          </tr>
+          <tr>
+            <td>{{ __('Dispo/Mehrzweckraum') }}</td>
+            <td>42 m<sup>2</sup></td>
+          </tr>
+          <tr>
+            <td>{{ __('Fitness/Büro') }}</td>
+            <td>35 m<sup>2</sup></td>
+          </tr>
+          <tr>
+            <td>{{ __('Badezimmer/Dusche') }}</td>
+            <td>4 m<sup>2</sup></td>
+          </tr>
+          <tr>
+            <td>{{ __('Garten') }}</td>
+            <td>185 m<sup>2</sup></td>
+          </tr>
+          <tr>
+            <td>{{ __('Sitzplatz') }}</td>
+            <td>29 m<sup>2</sup></td>
+          </tr>
+          <tr>
+            <td>{{ __('Garage') }}</td>
+            <td>36 m<sup>2</sup></td>
+          </tr>
+                
+        </table>
+      </div>
+      <div class="order-2 sm:order-1">
         <figure>
-          <a href="/assets/media/wettswil-am-albis-riccarda-cavelti-rooms-d2.jpg" data-fancybox="gallery">
+          <h1>{{ __('Erdgeschoss') }}</h1>
+          <a href="/assets/media/rc_oberwil-lieli-grundriss-erdgeschoss.jpg" data-fancybox="gallery">
             <picture>
-              <source srcset="/assets/media/wettswil-am-albis-riccarda-cavelti-rooms-d2.webp" type="image/webp">
-              <source srcset="/assets/media/wettswil-am-albis-riccarda-cavelti-rooms-d2.jpg">
-              <img data-src="/assets/media/wettswil-am-albis-riccarda-cavelti-rooms-d2.jpg" width="1216" height="1600" alt="{{ __('content.heading-2-attic') }}" class="lazyload">
+              <img src="/assets/media/rc_oberwil-lieli-grundriss-erdgeschoss.jpg" width="1216" height="1600" alt="{{ __('Erdgeschoss') }}" loading="lazy">
             </picture>
           </a>
         </figure>
       </div>
     </article>
+
+    <article class="is-reverse is-plans">
+      <div class="order-1 sm:order-2">
+        <h1>{{ __('Raumprogramm') }}</h1>
+        <table class="is-narrow">
+          <tr>
+            <td>{{ __('Fitness/Büro') }}</td>
+            <td>35 m<sup>2</sup></td>
+          </tr>
+          <tr>
+            <td>{{ __('Tanzen/Kino') }}</td>
+            <td>32 m<sup>2</sup></td>
+          </tr>
+          <tr>
+            <td>{{ __('Bad/Dusche') }}</td>
+            <td>4 m<sup>2</sup></td>
+          </tr>
+        </table>
+      </div>
+      <div class="order-2 sm:order-1">
+        <figure>
+          <h1>{{ __('Untergeschoss') }}</h1>
+          <a href="/assets/media/rc_oberwil-lieli-grundriss-untergeschoss.jpg" data-fancybox="gallery">
+            <picture>
+              <img src="/assets/media/rc_oberwil-lieli-grundriss-untergeschoss.jpg" width="1216" height="1600" alt="{{ __('Untergeschoss') }}" loading="lazy">
+            </picture>
+          </a>
+        </figure>
+      </div>
+    </article>
+
 
     <article class="is-wide">
       <div>
@@ -78,48 +224,53 @@
       <div>
         <table>
           <tr>
-            <td>{{ __('content.facts-space') }}</td>
-            <td>{{ __('content.facts-approx') }} 175 m<sup>2</sup></td>
+            <td>{{ __('Wohnfläche') }}</td>
+            <td>610 m<sup>2</sup></td>
           </tr>
           <tr>
-            <td>{{ __('content.facts-rooms') }}</td>
-            <td>{{ __('content.facts-rooms-desc') }}</td>
+            <td>{{ __('Anzahl Zimmer') }}</td>
+            <td>{{ __('9 + Fitness/Tanz/Kinoraum/Disporaum') }}</td>
           </tr>
           <tr>
-            <td>{{ __('content.facts-bathrooms') }}</td>
-            <td>2</td>
+            <td>{{ __('Nasszellen') }}</td>
+            <td>7</td>
           </tr>
           <tr>
-            <td>{{ __('content.facts-floors') }}</td>
-            <td>2</td>
+            <td>{{ __('Anzahl Etagen') }}</td>
+            <td>3</td>
           </tr>
           <tr>
-            <td>{{ __('content.facts-floor') }}</td>
-            <td>2. / 3.</td>
+            <td>{{ __('Geschosse') }}</td>
+            <td>{{ __('OG + EG + UG') }}</td>
           </tr>
           <tr>
-            <td>{{ __('content.facts-year') }}</td>
-            <td>1995</td>
+            <td>{{ __('Baujahr') }}</td>
+            <td>2001</td>
           </tr>
           <tr>
-            <td>{{ __('content.facts-basement') }}</td>
-            <td>1</td>
+            <td>{{ __('Letzte Renovation') }}</td>
+            <td>2021/2022</td>
           </tr>
           <tr>
-            <td>{{ __('content.facts-parking') }}</td>
-            <td>1</td>
+            <td>{{ __('Garagenplätze') }}</td>
+            <td>6</td>
           </tr>
           <tr>
-            <td>{{ __('content.facts-conditions') }}</td>
-            <td>{{ __('content.facts-conditions-text') }}</td>
+            <td>{{ __('Aussenstellplätze') }}</td>
+            <td>9</td>
           </tr>
           <tr>
-            <td>{{ __('content.facts-price') }}</td>
-            <td>CHF 1.75 Mio.</td>
+            <td>{{ __('Bezug') }}</td>
+            <td>{{ __('nach Vereinbarung') }}</td>
+          </tr>
+          <tr>
+            <td>{{ __('Kaufpreis') }}</td>
+            <td>{{ __('5.9 Mio.') }}</td>
           </tr>
         </table>
       </div>
     </article>
+
     <article class="is-wide">
       <div>
         <h1>{{ __('content.contact') }}</h1>

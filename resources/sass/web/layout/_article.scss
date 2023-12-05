@@ -158,11 +158,19 @@ article {
     td {
       padding-bottom: $space-4x;
       padding-top: $space-4x;
-      width: 50%;
+      width: 40%;
 
       &:last-of-type {
         @include font-medium();
         text-align: right;
+        width: 60%;
+      }
+    }
+
+    &.is-narrow {
+      td {
+        padding-bottom: $space-2x;
+        padding-top: $space-2x;
       }
     }
   }
