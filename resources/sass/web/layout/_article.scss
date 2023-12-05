@@ -171,6 +171,10 @@ article {
       td {
         padding-bottom: $space-2x;
         padding-top: $space-2x;
+        width: 70%;
+        &:last-of-type {
+          width: 30%;
+        }
       }
     }
   }

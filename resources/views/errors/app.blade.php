@@ -8,7 +8,7 @@
 <meta property="og:title" content="@if(trim($__env->yieldContent('seo_title')))@yield('seo_title') – {{config('seo.title')}}@else{{config('seo.title')}}@endif">
 <meta property="og:description" content="@if(trim($__env->yieldContent('seo_description')))@yield('seo_description')@else{{config('seo.description')}}@endif">
 <meta property="og:url" content="{{url()->current()}}">
-<meta property="og:image" content="{{ asset('assets/img/day_shoes.jpg') }}">
+<meta property="og:image" content="{{ asset('assets/img/rc_oberwil-lieli-8.5-zimmer-02.jpg') }}">
 <meta property="og:site_name" content="{{config('seo.title')}}">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
