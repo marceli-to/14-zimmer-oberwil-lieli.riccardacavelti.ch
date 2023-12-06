@@ -2,7 +2,7 @@
 require('./bootstrap');
 
 // Vendor
-require('./vendor/lazysizes.js');
+// require('./vendor/lazysizes.js');
 require('./vendor/fancybox.js');
 require('./vendor/swiper.js');
 
