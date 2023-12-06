@@ -37,7 +37,7 @@
       </div>
       <a href="/assets/media/rc_oberwil-lieli.mp4" data-fancybox="video">
         <figure class="has-button">
-          <img data-src="/assets/media/rc_oberwil-lieli-preview.jpg" width="1600" height="1067" alt="{{ __('content.heading-location') }}" class="lazyload">
+          <img src="/assets/media/rc_oberwil-lieli-preview.jpg" width="1600" height="1067" alt="{{ __('content.heading-location') }}" loading="lazy">
         </figure>
       </a>
     </article>
