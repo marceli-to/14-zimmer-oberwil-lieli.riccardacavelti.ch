@@ -4,7 +4,7 @@
     <picture>
       <source media="(min-width: 1000px)" src="/assets/media/blank.png" data-srcset="/assets/media/{{ $image }}.webp" type="image/webp">
       <source media="(min-width: 1000px)" src="/assets/media/blank.png" data-srcset="/assets/media/{{ $image }}.jpg">
-      <source src="/assets/media/blank.png" data-srcset="/assets/media/{{$image}}-sm.webp" type="image/webp">
+      <source srcset="/assets/media/blank.png" data-srcset="/assets/media/{{$image}}-sm.webp" type="image/webp">
       <img src="/assets/media/blank.png" data-src="/assets/media/{{$image}}-sm.jpg" width="{{$width}}" height="{{$height}}" alt="{{$alt}}" class="lazyload">
     </picture>
   </figure>  
