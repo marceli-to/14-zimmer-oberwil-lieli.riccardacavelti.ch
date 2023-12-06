@@ -2,9 +2,9 @@
 <div class="swiper-slide">
   <figure>
     <picture>
-      <source media="(min-width: 1000px)" srcset="/assets/media/{{ $image }}.avif" type="image/avif">
-      <source media="(min-width: 1000px)" srcset="/assets/media/{{ $image }}.webp" type="image/webp">
-      <source media="(min-width: 1000px)" srcset="/assets/media/{{ $image }}.jpg">
+      <source media="(min-width: 800px)" srcset="/assets/media/{{ $image }}.avif" type="image/avif">
+      <source media="(min-width: 800px)" srcset="/assets/media/{{ $image }}.webp" type="image/webp">
+      <source media="(min-width: 800px)" srcset="/assets/media/{{ $image }}.jpg">
       <source srcset="/assets/media/{{$image}}-sm.avif" type="image/avif">
       <source srcset="/assets/media/{{$image}}-sm.webp" type="image/webp">
       <img src="/assets/media/{{$image}}-sm.jpg" width="{{$width}}" height="{{$height}}" alt="{{$alt}}" loading="lazy">
