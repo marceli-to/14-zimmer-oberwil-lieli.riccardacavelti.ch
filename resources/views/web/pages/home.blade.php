@@ -35,7 +35,7 @@
         <h2>{{ __('content.heading-location') }}</h2>
         {!! __('<p>In der steuergünstigsten Gemeinde des Kantons Aargau (Steuerfuss 48%) in herrlicher, ländlicher Umgebung, über der Nebelgrenze mit fantastischer Weitsicht und ganztägiger Besonnung. 14 km von der Stadtgrenze Zürich, 30 km von Zug und 26 km vom Flughafen entfernt liegt die idyllische Gemeinde Oberwil-Lieli.</p><p>Mit dem direkten Schnellbus, ohne Halt ist man in nur 20 Minuten am Bahnhof Zürich Enge.</p><p>Das Schulhaus Falter und der Kindergarten liegen nur 230 Meter vom Haus entfernt, welche ohne Überquerung einer Strasse zu Fuss in wenigen Minuten erreichbar sind.</p>') !!}
       </div>
-      <a href="/assets/media/rc_oberwil-lieli.mp4" data-fancybox="video">
+      <a href="/storage/rc_oberwil-lieli.mp4" data-fancybox="video">
         <figure class="has-button">
           <img data-src="/assets/media/rc_oberwil-lieli-preview.jpg" width="1600" height="1067" alt="{{ __('content.heading-location') }}" class="lazyload">
         </figure>
