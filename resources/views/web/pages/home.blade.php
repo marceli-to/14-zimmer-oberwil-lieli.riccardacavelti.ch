@@ -95,9 +95,7 @@
         <figure>
           <h1>{{ __('Obergeschoss') }}</h1>
           <a href="/assets/media/rc_oberwil-lieli-grundriss-obergeschoss.jpg" data-fancybox="gallery">
-            <picture>
-              <img src="/assets/media/rc_oberwil-lieli-grundriss-obergeschoss.jpg" width="1216" height="1600" alt="{{ __('Obergeschoss') }}" loading="lazy">
-            </picture>
+            <img src="/assets/media/rc_oberwil-lieli-grundriss-obergeschoss.jpg" width="1216" height="1600" alt="{{ __('Obergeschoss') }}" loading="lazy">
           </a>
         </figure>
       </div>
@@ -178,9 +176,7 @@
         <figure>
           <h1>{{ __('Erdgeschoss') }}</h1>
           <a href="/assets/media/rc_oberwil-lieli-grundriss-erdgeschoss.jpg" data-fancybox="gallery">
-            <picture>
-              <img src="/assets/media/rc_oberwil-lieli-grundriss-erdgeschoss.jpg" width="1216" height="1600" alt="{{ __('Erdgeschoss') }}" loading="lazy">
-            </picture>
+            <img src="/assets/media/rc_oberwil-lieli-grundriss-erdgeschoss.jpg" width="1216" height="1600" alt="{{ __('Erdgeschoss') }}" loading="lazy">
           </a>
         </figure>
       </div>
@@ -208,9 +204,7 @@
         <figure>
           <h1>{{ __('Untergeschoss') }}</h1>
           <a href="/assets/media/rc_oberwil-lieli-grundriss-untergeschoss.jpg" data-fancybox="gallery">
-            <picture>
-              <img src="/assets/media/rc_oberwil-lieli-grundriss-untergeschoss.jpg" width="1216" height="1600" alt="{{ __('Untergeschoss') }}" loading="lazy">
-            </picture>
+            <img src="/assets/media/rc_oberwil-lieli-grundriss-untergeschoss.jpg" width="1216" height="1600" alt="{{ __('Untergeschoss') }}" loading="lazy">
           </a>
         </figure>
       </div>
