@@ -19,7 +19,7 @@ return [
   */
 
   'email' => [
-    'from' => env('RC_MAIL_REPLY_TO', 'no-reply@riccardacavelti.ch.local.marceli.to'),
+    'from' => env('RC_MAIL_REPLY_TO', 'no-reply@riccardacavelti.ch'),
     'recipient' => env('RC_MAIL_RECIPIENT', 'marcel@jamon.digital'),
     'bcc' => env('RC_MAIL_BCC', 'marcel@jamon.digital'),
   ],
@@ -31,7 +31,7 @@ return [
   |
   */
 
-  'domain' => env('RC_DOMAIN', 'http://riccardacavelti.ch.local.marceli.to'),
+  'domain' => env('RC_DOMAIN', 'https://riccardacavelti.ch'),
 
   /*
   |--------------------------------------------------------------------------

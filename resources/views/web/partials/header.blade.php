@@ -1,7 +1,7 @@
 <header class="site-header">
   <div>
     <div class="site-header__item is-vcenter">
-      <span>{{__('Objekt') }} RC2111.01</span>
+      <span>{{__('Objekt') }} RC2312.01</span>
     </div>
     <div class="site-header__item is-hcenter">
       <a href="/" class="logo" title="Home">

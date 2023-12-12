@@ -4,7 +4,7 @@
 @section('content')
 <section class="content-intro">
   <div>
-    <span class="claim">{{__('Objekt') }} RC2111.01</span>
+    <span class="claim">{{__('Objekt') }} RC2312.01</span>
     <article class="is-intro">
       <div class="intro__text">
         <div>
@@ -277,7 +277,7 @@
           <strong><a href="javascript:;" class="js-imprint-btn">{{ __('content.imprint') }}</a></strong>
         </p>
         <div class="imprint js-imprint" style="display:none">
-          <p><strong>Copyright, 10 / 2021</strong><br>Riccarda Cavelti GmbH, Zürich</p>
+          <p><strong>Copyright, 10 / {{ date('Y', time()) }}</strong><br>Riccarda Cavelti GmbH, Zürich</p>
           <p><strong>{{ __('content.design') }}</strong><br>WBG AG, Zürich</p>
           <p><strong>{{ __('content.photography') }}</strong><br>Marcel Renggli, Baden</p>
           <p><strong>{{ __('content.development') }}</strong><br><a href="https://marceli.to" target="_blank" rel="noopener" title="marceli.to">marceli.to</a>, Zürich</p>
