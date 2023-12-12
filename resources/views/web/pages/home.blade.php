@@ -1,6 +1,6 @@
 @extends('web.layout.app')
 @section('seo_title', strip_tags(str_replace('<br>',' – ', __('14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau 8966 Oberwil-Lieli (Steuerfuss 48%)'))))
-@section('seo_description', strip_tags(__('<p>Exklusives und hochwertig ausgebautes Duplex-Terrassenhaus (Stockwerkeigentum), 600 m<sup>2</sup> Wohnfläche, 9 Schlafzimmern, 7 Badezimmern, Fitnessraum, Mehrzweckraum, Tanz/Kinoraum, 179 m<sup>2</sup> Terrasse, 184 m<sup>2</sup> Garten mit Swim Spa, Whirlpool, 6 Garagenstellplätze, 9 Aussenstellplätze.<br>Diese grosszügige Liegenschaft, bestehend aus zwei miteinander verbundenen Wohnungen, Wohnfläche ca. 400 m<sup>2</sup> und ca. 210 m<sup>2</sup>, eignet sich hervorragend für eine kinderreiche Familie, Generationenhaus sowie zur Unterbringung der eigenen Firma.</p>')))
+@section('seo_description', strip_tags(__('<p>Exklusives und hochwertig ausgebautes Duplex-Terrassenhaus (Stockwerkeigentum), 600&nbsp;m<sup>2</sup> Wohnfläche, 9 Schlafzimmern, 7 Badezimmern, Fitnessraum, Mehrzweckraum, Tanz/Kinoraum, 179&nbsp;m<sup>2</sup> Terrasse, 184&nbsp;m<sup>2</sup> Garten mit Swim Spa, Whirlpool, 6 Garagenstellplätze, 9 Aussenstellplätze. Diese grosszügige Liegenschaft, bestehend aus zwei miteinander verbundenen Wohnungen, Wohnfläche ca. 400 m2 und ca. 210 m2, eignet sich hervorragend für eine kinderreiche Familie, Generationenhaus sowie zur Unterbringung der eigenen Firma.</p>')))
 @section('content')
 <section class="content-intro">
   <div>
@@ -9,7 +9,7 @@
       <div class="intro__text">
         <div>
           <h1>{!! __('14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau 8966 Oberwil-Lieli (Steuerfuss 48%)') !!}</h1>
-          {!! __('<p>Exklusives und hochwertig ausgebautes Duplex-Terrassenhaus (Stockwerkeigentum), 600 m<sup>2</sup> Wohnfläche, 9 Schlafzimmern, 7 Badezimmern, Fitnessraum, Mehrzweckraum, Tanz/Kinoraum, 179 m<sup>2</sup> Terrasse, 184 m<sup>2</sup> Garten mit Swim Spa, Whirlpool, 6 Garagenstellplätze, 9 Aussenstellplätze.<br>Diese grosszügige Liegenschaft, bestehend aus zwei miteinander verbundenen Wohnungen, Wohnfläche ca. 400 m<sup>2</sup> und ca. 210 m<sup>2</sup>, eignet sich hervorragend für eine kinderreiche Familie, Generationenhaus sowie zur Unterbringung der eigenen Firma.</p>') !!}
+          {!! __('<p>Exklusives und hochwertig ausgebautes Duplex-Terrassenhaus (Stockwerkeigentum), 600&nbsp;m<sup>2</sup> Wohnfläche, 9 Schlafzimmern, 7 Badezimmern, Fitnessraum, Mehrzweckraum, Tanz/Kinoraum, 179&nbsp;m<sup>2</sup> Terrasse, 184&nbsp;m<sup>2</sup> Garten mit Swim Spa, Whirlpool, 6 Garagenstellplätze, 9 Aussenstellplätze. Diese grosszügige Liegenschaft, bestehend aus zwei miteinander verbundenen Wohnungen, Wohnfläche ca. 400&nbsp;m<sup>2</sup> und ca. 210&nbsp;m<sup>2</sup>, eignet sich hervorragend für eine kinderreiche Familie, Generationenhaus sowie zur Unterbringung der eigenen Firma.</p>') !!}
         </div>
       </div>
       <x-slideshow>
@@ -18,11 +18,9 @@
         <x-image isSlide="true" image="rc_oberwil-lieli-8.5-zimmer-03" width="1600" height="1067" alt="{{ __('14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
         <x-image isSlide="true" image="rc_oberwil-lieli-8.5-zimmer-04" width="1600" height="1067" alt="{{ __('14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
         <x-image isSlide="true" image="rc_oberwil-lieli-8.5-zimmer-05" width="1600" height="1067" alt="{{ __('14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
+        <x-image isSlide="true" image="rc_oberwil-lieli-8.5-zimmer-06" width="1600" height="1067" alt="{{ __('14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
         <x-image isSlide="true" image="rc_oberwil-lieli-5.5-zimmer-01" width="1600" height="1067" alt="{{ __('14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
-        <x-image isSlide="true" image="rc_oberwil-lieli-5.5-zimmer-03" width="1600" height="1067" alt="{{ __('14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
         <x-image isSlide="true" image="rc_oberwil-lieli-5.5-zimmer-04" width="1600" height="1067" alt="{{ __('14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
-        <x-image isSlide="true" image="rc_oberwil-lieli-5.5-zimmer-05" width="1600" height="1067" alt="{{ __('14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
-        <x-image isSlide="true" image="rc_oberwil-lieli-5.5-zimmer-06" width="1600" height="1067" alt="{{ __('14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
         <x-image isSlide="true" image="rc_oberwil-lieli-5.5-zimmer-07" width="1600" height="1067" alt="{{ __('14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
       </x-slideshow>
     </article>
@@ -47,55 +45,55 @@
         <table class="is-narrow">
           <tr>
             <td>{{ __('Entrée') }}</td>
-            <td>19 m<sup>2</sup></td>
+            <td>19&nbsp;{!! __('m<sup>2</sup>') !!}</td>
           </tr>
           <tr>
             <td>{{ __('Wohnen/Essen') }}</td>
-            <td>90 m<sup>2</sup></td>
+            <td>90&nbsp;{!! __('m<sup>2</sup>') !!}</td>
           </tr>
           <tr>
             <td>{{ __('Küche') }}</td>
-            <td>20 m<sup>2</sup></td>
+            <td>20&nbsp;{!! __('m<sup>2</sup>') !!}</td>
           </tr>
           <tr>
             <td>{{ __('Master Bedroom/Ankleide') }}</td>
-            <td>25 m<sup>2</sup></td>
+            <td>25&nbsp;{!! __('m<sup>2</sup>') !!}</td>
           </tr>
           <tr>
             <td>{{ __('Badezimmer/Badewanne/Dusche') }}</td>
-            <td>13 m<sup>2</sup></td>
+            <td>13&nbsp;{!! __('m<sup>2</sup>') !!}</td>
           </tr>
           <tr>
             <td>{{ __('Schlafzimmer/Kinderzimmer') }}</td>
-            <td>24 m<sup>2</sup></td>
+            <td>24&nbsp;{!! __('m<sup>2</sup>') !!}</td>
           </tr>
           <tr>
             <td>{{ __('Schlafzimmer/Kinderzimmer') }}</td>
-            <td>15 m<sup>2</sup></td>
+            <td>15&nbsp;{!! __('m<sup>2</sup>') !!}</td>
           </tr>
           <tr>
             <td>{{ __('Badezimmer/Dusche') }}</td>
-            <td>6 m<sup>2</sup></td>
+            <td>6&nbsp;{!! __('m<sup>2</sup>') !!}</td>
           </tr>
           <tr>
             <td>{{ __('Terrasse') }}</td>
-            <td>179 m<sup>2</sup></td>
+            <td>179&nbsp;{!! __('m<sup>2</sup>') !!}</td>
           </tr>
           <tr>
             <td>{{ __('Doppelgarage') }}</td>
-            <td>41 m<sup>2</sup></td>
+            <td>41&nbsp;{!! __('m<sup>2</sup>') !!}</td>
           </tr>
           <tr>
             <td>{{ __('Doppelgarage') }}</td>
-            <td>33 m<sup>2</sup></td>
+            <td>33&nbsp;{!! __('m<sup>2</sup>') !!}</td>
           </tr>
         </table>
       </div>
       <div class="order-2 sm:order-1">
         <figure>
           <h1>{{ __('Obergeschoss') }}</h1>
-          <a href="/assets/media/rc_oberwil-lieli-grundriss-obergeschoss.jpg" data-fancybox="gallery">
-            <img src="/assets/media/rc_oberwil-lieli-grundriss-obergeschoss.jpg" width="1216" height="1600" alt="{{ __('Obergeschoss') }}" loading="lazy">
+          <a href="/assets/media/rc_oberwil-lieli-14-grundriss-obergeschoss_{{ app()->getLocale() }}.jpg" data-fancybox="gallery">
+            <img src="/assets/media/rc_oberwil-lieli-14-grundriss-obergeschoss_{{ app()->getLocale() }}.jpg" width="1216" height="1600" alt="{{ __('Obergeschoss') }}" loading="lazy">
           </a>
         </figure>
       </div>
@@ -107,67 +105,67 @@
         <table class="is-narrow">
           <tr>
             <td>{{ __('Wohnen/Essen') }}</td>
-            <td>49 m<sup>2</sup></td>
+            <td>49&nbsp;{!! __('m<sup>2</sup>') !!}</td>
           </tr>
           <tr>
             <td>{{ __('Küche') }}</td>
-            <td>20 m<sup>2</sup></td>
+            <td>20&nbsp;{!! __('m<sup>2</sup>') !!}</td>
           </tr>
           <tr>
             <td>{{ __('Master Bedroom') }}</td>
-            <td>26 m<sup>2</sup></td>
+            <td>26&nbsp;{!! __('m<sup>2</sup>') !!}</td>
           </tr>
           <tr>
             <td>{{ __('Badezimmer/Bad/Dusche/Badewanne') }}</td>
-            <td>12 m<sup>2</sup></td>
+            <td>12&nbsp;{!! __('m<sup>2</sup>') !!}</td>
           </tr>
           <tr>
             <td>{{ __('Schlafzimmer') }}</td>
-            <td>21 m<sup>2</sup></td>
+            <td>21&nbsp;{!! __('m<sup>2</sup>') !!}</td>
           </tr>
           <tr>
             <td>{{ __('Schlafzimmer') }}</td>
-            <td>20 m<sup>2</sup></td>
+            <td>20&nbsp;{!! __('m<sup>2</sup>') !!}</td>
           </tr>
           <tr>
             <td>{{ __('Badezimmer/Dusche') }}</td>
-            <td>7 m<sup>2</sup></td>
+            <td>7&nbsp;{!! __('m<sup>2</sup>') !!}</td>
           </tr>
           <tr>
             <td>{{ __('Kinderzimmer/Büro') }}</td>
-            <td>18 m<sup>2</sup></td>
+            <td>18&nbsp;{!! __('m<sup>2</sup>') !!}</td>
           </tr>
           <tr>
             <td>{{ __('Schlafzimmer') }}</td>
-            <td>30 m<sup>2</sup></td>
+            <td>30&nbsp;{!! __('m<sup>2</sup>') !!}</td>
           </tr>
           <tr>
             <td>{{ __('Badezimmer/Dusche') }}</td>
-            <td>6 m<sup>2</sup></td>
+            <td>6&nbsp;{!! __('m<sup>2</sup>') !!}</td>
           </tr>
           <tr>
             <td>{{ __('Dispo/Mehrzweckraum') }}</td>
-            <td>42 m<sup>2</sup></td>
+            <td>42&nbsp;{!! __('m<sup>2</sup>') !!}</td>
           </tr>
           <tr>
             <td>{{ __('Fitness/Büro') }}</td>
-            <td>35 m<sup>2</sup></td>
+            <td>35&nbsp;{!! __('m<sup>2</sup>') !!}</td>
           </tr>
           <tr>
             <td>{{ __('Badezimmer/Dusche') }}</td>
-            <td>4 m<sup>2</sup></td>
+            <td>4&nbsp;{!! __('m<sup>2</sup>') !!}</td>
           </tr>
           <tr>
             <td>{{ __('Garten') }}</td>
-            <td>185 m<sup>2</sup></td>
+            <td>185&nbsp;{!! __('m<sup>2</sup>') !!}</td>
           </tr>
           <tr>
             <td>{{ __('Sitzplatz') }}</td>
-            <td>29 m<sup>2</sup></td>
+            <td>29&nbsp;{!! __('m<sup>2</sup>') !!}</td>
           </tr>
           <tr>
             <td>{{ __('Garage') }}</td>
-            <td>36 m<sup>2</sup></td>
+            <td>36&nbsp;{!! __('m<sup>2</sup>') !!}</td>
           </tr>
                 
         </table>
@@ -175,8 +173,8 @@
       <div class="order-2 sm:order-1">
         <figure>
           <h1>{{ __('Erdgeschoss') }}</h1>
-          <a href="/assets/media/rc_oberwil-lieli-grundriss-erdgeschoss.jpg" data-fancybox="gallery">
-            <img src="/assets/media/rc_oberwil-lieli-grundriss-erdgeschoss.jpg" width="1216" height="1600" alt="{{ __('Erdgeschoss') }}" loading="lazy">
+          <a href="/assets/media/rc_oberwil-lieli-14-grundriss-erdgeschoss_{{ app()->getLocale() }}.jpg" data-fancybox="gallery">
+            <img src="/assets/media/rc_oberwil-lieli-14-grundriss-erdgeschoss_{{ app()->getLocale() }}.jpg" width="1216" height="1600" alt="{{ __('Erdgeschoss') }}" loading="lazy">
           </a>
         </figure>
       </div>
@@ -188,23 +186,23 @@
         <table class="is-narrow">
           <tr>
             <td>{{ __('Fitness/Büro') }}</td>
-            <td>35 m<sup>2</sup></td>
+            <td>35&nbsp;{!! __('m<sup>2</sup>') !!}</td>
           </tr>
           <tr>
             <td>{{ __('Tanzen/Kino') }}</td>
-            <td>32 m<sup>2</sup></td>
+            <td>32&nbsp;{!! __('m<sup>2</sup>') !!}</td>
           </tr>
           <tr>
             <td>{{ __('Bad/Dusche') }}</td>
-            <td>4 m<sup>2</sup></td>
+            <td>4&nbsp;{!! __('m<sup>2</sup>') !!}</td>
           </tr>
         </table>
       </div>
       <div class="order-2 sm:order-1">
         <figure>
           <h1>{{ __('Untergeschoss') }}</h1>
-          <a href="/assets/media/rc_oberwil-lieli-grundriss-untergeschoss.jpg" data-fancybox="gallery">
-            <img src="/assets/media/rc_oberwil-lieli-grundriss-untergeschoss.jpg" width="1216" height="1600" alt="{{ __('Untergeschoss') }}" loading="lazy">
+          <a href="/assets/media/rc_oberwil-lieli-14-grundriss-untergeschoss_{{ app()->getLocale() }}.jpg" data-fancybox="gallery">
+            <img src="/assets/media/rc_oberwil-lieli-14-grundriss-untergeschoss_{{ app()->getLocale() }}.jpg" width="1216" height="1600" alt="{{ __('Untergeschoss') }}" loading="lazy">
           </a>
         </figure>
       </div>
@@ -219,11 +217,11 @@
         <table>
           <tr>
             <td>{{ __('Wohnfläche') }}</td>
-            <td>610 m<sup>2</sup></td>
+            <td>610&nbsp;{!! __('m<sup>2</sup>') !!}</td>
           </tr>
           <tr>
             <td>{{ __('Anzahl Zimmer') }}</td>
-            <td>{{ __('9 + Fitness/Tanz/Kinoraum/Disporaum') }}</td>
+            <td>9</td>
           </tr>
           <tr>
             <td>{{ __('Nasszellen') }}</td>
