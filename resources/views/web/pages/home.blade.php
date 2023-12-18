@@ -1,6 +1,6 @@
 @extends('web.layout.app')
-@section('seo_title', strip_tags(str_replace('<br>',' – ', __('14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau 8966 Oberwil-Lieli (Steuerfuss 48%)'))))
-@section('seo_description', strip_tags(__('<p>Exklusives und hochwertig ausgebautes Duplex-Terrassenhaus (Stockwerkeigentum), 600&nbsp;m<sup>2</sup> Wohnfläche, 9 Schlafzimmern, 7 Badezimmern, Fitnessraum, Mehrzweckraum, Tanz/Kinoraum, 179&nbsp;m<sup>2</sup> Terrasse, 184&nbsp;m<sup>2</sup> Garten mit Swim Spa, Whirlpool, 6 Garagenstellplätze, 9 Aussenstellplätze. Diese grosszügige Liegenschaft, bestehend aus zwei miteinander verbundenen Wohnungen, Wohnfläche ca. 400 m2 und ca. 210 m2, eignet sich hervorragend für eine kinderreiche Familie, Generationenhaus sowie zur Unterbringung der eigenen Firma.</p>')))
+@section('seo_title', strip_tags(str_replace('<br>',' – ', __('610 m2 grosses 14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau: 8966 Oberwil-Lieli (Steuerfuss 48%)'))))
+@section('seo_description', strip_tags(__('<p>Exklusives und hochwertig ausgebautes Duplex-Terrassenhaus (Stockwerkeigentum), 610&nbsp;m<sup>2</sup> Wohnfläche, 9 Schlafzimmern, 7 Badezimmern, Fitnessraum, Mehrzweckraum, Tanz/Kinoraum, 179&nbsp;m<sup>2</sup> Terrasse, 184&nbsp;m<sup>2</sup> Garten mit Swim Spa, Whirlpool, 6 Garagenstellplätze, 9 Aussenstellplätze. Diese grosszügige Liegenschaft, bestehend aus zwei miteinander verbundenen Wohnungen, Wohnfläche ca. 400 m2 und ca. 210 m2, eignet sich hervorragend für eine kinderreiche Familie, Generationenhaus sowie zur Unterbringung der eigenen Firma.</p>')))
 @section('content')
 <section class="content-intro">
   <div>
@@ -8,8 +8,8 @@
     <article class="is-intro">
       <div class="intro__text">
         <div>
-          <h1>{!! __('14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau 8966 Oberwil-Lieli (Steuerfuss 48%)') !!}</h1>
-          {!! __('<p>Exklusives und hochwertig ausgebautes Duplex-Terrassenhaus (Stockwerkeigentum), 600&nbsp;m<sup>2</sup> Wohnfläche, 9 Schlafzimmern, 7 Badezimmern, Fitnessraum, Mehrzweckraum, Tanz/Kinoraum, 179&nbsp;m<sup>2</sup> Terrasse, 184&nbsp;m<sup>2</sup> Garten mit Swim Spa, Whirlpool, 6 Garagenstellplätze, 9 Aussenstellplätze. Diese grosszügige Liegenschaft, bestehend aus zwei miteinander verbundenen Wohnungen, Wohnfläche ca. 400&nbsp;m<sup>2</sup> und ca. 210&nbsp;m<sup>2</sup>, eignet sich hervorragend für eine kinderreiche Familie, Generationenhaus sowie zur Unterbringung der eigenen Firma.</p>') !!}
+          <h1>{!! __('610&nbsp;m<sup>2</sup> grosses 14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau: 8966 Oberwil-Lieli (Steuerfuss 48%)') !!}</h1>
+          {!! __('<p>Exklusives und hochwertig ausgebautes Duplex-Terrassenhaus (Stockwerkeigentum), 610&nbsp;m<sup>2</sup> Wohnfläche, 9 Schlafzimmern, 7 Badezimmern, Fitnessraum, Mehrzweckraum, Tanz/Kinoraum, 179&nbsp;m<sup>2</sup> Terrasse, 184&nbsp;m<sup>2</sup> Garten mit Swim Spa, Whirlpool, 6 Garagenstellplätze, 9 Aussenstellplätze. Diese grosszügige Liegenschaft, bestehend aus zwei miteinander verbundenen Wohnungen, Wohnfläche ca. 400&nbsp;m<sup>2</sup> und ca. 210&nbsp;m<sup>2</sup>, eignet sich hervorragend für eine kinderreiche Familie, Generationenhaus sowie zur Unterbringung der eigenen Firma.</p>') !!}
         </div>
       </div>
       <x-slideshow>
