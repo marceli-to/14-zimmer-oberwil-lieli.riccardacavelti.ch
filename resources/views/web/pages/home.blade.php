@@ -262,7 +262,7 @@
           </tr>
           <tr>
             <td>{{ __('Kaufpreis') }}</td>
-            <td>{{ __('5.9 Mio.') }}</td>
+            <td>{{ __('6.03 Mio.') }}</td>
           </tr>
         </table>
       </div>
