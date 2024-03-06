@@ -13,17 +13,19 @@
         </div>
       </div>
       <x-slideshow>
-        <x-image isSlide="true" image="rc_oberwil-lieli-8.5-zimmer-01" width="1600" height="1067" alt="{{ __('610 m2 grosses 14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau: 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
-        <x-image isSlide="true" image="rc_oberwil-lieli-8.5-zimmer-02" width="1600" height="1067" alt="{{ __('610 m2 grosses 14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau: 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
-        <x-image isSlide="true" image="rc_oberwil-lieli-8.5-zimmer-03" width="1600" height="1067" alt="{{ __('610 m2 grosses 14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau: 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
-        <x-image isSlide="true" image="rc_oberwil-lieli-8.5-zimmer-04" width="1600" height="1067" alt="{{ __('610 m2 grosses 14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau: 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
-        <x-image isSlide="true" image="rc_oberwil-lieli-8.5-zimmer-05" width="1600" height="1067" alt="{{ __('610 m2 grosses 14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau: 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
-        <x-image isSlide="true" image="rc_oberwil-lieli-8.5-zimmer-06" width="1600" height="1067" alt="{{ __('610 m2 grosses 14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau: 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
-        <x-image isSlide="true" image="rc_oberwil-lieli-8.5-zimmer-07" width="1600" height="1067" alt="{{ __('610 m2 grosses 14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau: 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
-        <x-image isSlide="true" image="rc_oberwil-lieli-8.5-zimmer-08" width="1600" height="1067" alt="{{ __('610 m2 grosses 14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau: 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
-        <x-image isSlide="true" image="rc_oberwil-lieli-5.5-zimmer-09" width="1600" height="1067" alt="{{ __('610 m2 grosses 14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau: 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
-        <x-image isSlide="true" image="rc_oberwil-lieli-5.5-zimmer-10" width="1600" height="1067" alt="{{ __('610 m2 grosses 14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau: 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
-        <x-image isSlide="true" image="rc_oberwil-lieli-5.5-zimmer-11" width="1600" height="1067" alt="{{ __('610 m2 grosses 14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau: 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
+        <x-image isSlide="true" image="rc_oberwil-lieli-14-zimmer-01" width="1600" height="1067" alt="{{ __('610 m2 grosses 14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau: 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
+        <x-image isSlide="true" image="rc_oberwil-lieli-14-zimmer-02" width="1600" height="1067" alt="{{ __('610 m2 grosses 14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau: 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
+        <x-image isSlide="true" image="rc_oberwil-lieli-14-zimmer-03" width="1600" height="1067" alt="{{ __('610 m2 grosses 14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau: 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
+        <x-image isSlide="true" image="rc_oberwil-lieli-14-zimmer-04" width="1600" height="1067" alt="{{ __('610 m2 grosses 14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau: 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
+        <x-image isSlide="true" image="rc_oberwil-lieli-14-zimmer-05" width="1600" height="1067" alt="{{ __('610 m2 grosses 14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau: 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
+        <x-image isSlide="true" image="rc_oberwil-lieli-14-zimmer-06" width="1600" height="1067" alt="{{ __('610 m2 grosses 14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau: 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
+        <x-image isSlide="true" image="rc_oberwil-lieli-14-zimmer-07" width="1600" height="1067" alt="{{ __('610 m2 grosses 14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau: 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
+        <x-image isSlide="true" image="rc_oberwil-lieli-14-zimmer-08" width="1600" height="1067" alt="{{ __('610 m2 grosses 14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau: 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
+        <x-image isSlide="true" image="rc_oberwil-lieli-14-zimmer-09" width="1600" height="1067" alt="{{ __('610 m2 grosses 14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau: 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
+        <x-image isSlide="true" image="rc_oberwil-lieli-14-zimmer-10" width="1600" height="1067" alt="{{ __('610 m2 grosses 14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau: 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
+        <x-image isSlide="true" image="rc_oberwil-lieli-14-zimmer-11" width="1600" height="1067" alt="{{ __('610 m2 grosses 14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau: 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
+        <x-image isSlide="true" image="rc_oberwil-lieli-14-zimmer-12" width="1600" height="1067" alt="{{ __('610 m2 grosses 14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau: 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
+        <x-image isSlide="true" image="rc_oberwil-lieli-14-zimmer-13" width="1600" height="1067" alt="{{ __('610 m2 grosses 14-Zimmer-Duplex-Terrassenhaus in der steuergünstigsten Gemeinde des Kantons Aargau: 8966 Oberwil-Lieli (Steuerfuss 48%)') }}" />
       </x-slideshow>
     </article>
   </div>
@@ -35,9 +37,11 @@
         <h2>{{ __('content.heading-location') }}</h2>
         {!! __('<p>In der steuergünstigsten Gemeinde des Kantons Aargau (Steuerfuss 48%) in herrlicher, ländlicher Umgebung, über der Nebelgrenze mit fantastischer Weitsicht und ganztägiger Besonnung. 14 km von der Stadtgrenze Zürich, 30 km von Zug und 26 km vom Flughafen entfernt liegt die idyllische Gemeinde Oberwil-Lieli.</p><p>Mit dem direkten Schnellbus, ohne Halt ist man in nur 20 Minuten am Bahnhof Zürich Enge.</p><p>Das Schulhaus Falter und der Kindergarten liegen nur 230 Meter vom Haus entfernt, welche ohne Überquerung einer Strasse zu Fuss in wenigen Minuten erreichbar sind.</p>') !!}
       </div>
-      <figure>
-        <img src="/assets/media/rc_oberwil-lieli-8.5-zimmer-00.jpg" width="1600" height="1067" alt="{{ __('content.heading-location') }}" loading="lazy">
-      </figure>
+      <a href="/assets/media/rc_oberwil-lieli-14-zimmer.mp4" data-fancybox="video">
+        <figure class="has-button">
+          <img src="/assets/media/rc_oberwil-lieli-14-zimmer.jpg" width="1600" height="1067" alt="{{ __('content.heading-location') }}" loading="lazy">
+        </figure>
+      </a>
     </article>
     <article class="is-reverse is-plans">
       <div class="order-1 sm:order-2">
